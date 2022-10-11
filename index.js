@@ -5,7 +5,8 @@ import * as dotenv from 'dotenv' // see https://github.com/motdotla/dotenv#how-d
 dotenv.config()
 
 const app = express();
-const PORT = 4000;
+
+const PORT = process.env.PORT;
 
 // const MONGO_URL= "mongodb://localhost"; // v5
 // const MONGO_URL = "mongodb://127.0.0.1"; // v6
