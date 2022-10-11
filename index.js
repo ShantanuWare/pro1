@@ -27,7 +27,7 @@ const client = await createConnection();
 app.use(express.json());
 
 app.get("/", function (request, response) {
-  response.send("🙋‍♂️, 🌏 🎊✨🤩 iigjaxaacs");
+  response.send("🙋‍♂️, 🌏 🎊✨🤩 Welcome");
 });
 
 //movies
